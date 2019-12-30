@@ -1,0 +1,42 @@
+{
+    "content": [
+        {
+            "title": "FALCON",
+            "subtitle": "Simple, Reliable, Intelligent",
+            "header_tab1":"Logo",
+            "header_tab2":"About",
+            "header_tab3":"Values",
+            "header_tab4":"News",
+            "header_tab5":"Contact",
+            "header_tab6":"Clients",
+            "header_tab7":"Partners",
+            "link1":"#",
+            "link2":"#",
+            "link3":"#",
+            "link4":"#",
+            "link5":"#",
+            "link6":"#",
+            "link7":"#",
+            "h1_heading":"",
+            "para_1":"",
+            "para_2":"",
+            "para_3":"",
+            "AD_1":"AD",
+            "AD_2":"AD",
+            "AD_3":"AD",
+            "AD_4":"AD",
+            "AD_5":"AD",
+            "AD_6":"AD",
+            "pagination_1":"1",
+            "pagination_2":"2",
+            "pagination_3":"3",
+            "pagination_4":"4",
+            "pagination_5":"5",
+            "pagination_6":"»",
+            "h4_footer":"Footer",
+            "footer_para":"Powered by",
+            "footer_text":"Falcon"
+
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css files/style.css">
+<link rel="stylesheet" href="css files/theme.css">
+<link rel="stylesheet" href="css files/index.css">
+<link rel="stylesheet" href="css files/dropdown.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+
+    <!-- Navbar -->
+    <div class="falcon-top">
+        <div class="falcon-bar falcon-theme falcon-top falcon-left-align falcon-large">
+            <a class="falcon-bar-item falcon-button falcon-right falcon-hide-large falcon-hover-white falcon-large falcon-theme-l1"
+                href="javascript:void(0)" onclick="falcon_open()"><i class="fa fa-bars"></i></a>
+            <a href="#" class="falcon-bar-item falcon-button falcon-theme-l1">Logo</a>
+            <a href="#" class="falcon-bar-item falcon-button falcon-hide-small falcon-hover-white">About</a>
+            <a href="#" class="falcon-bar-item falcon-button falcon-hide-small falcon-hover-white">Values</a>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div> 
+             
+            <a href="#" class="falcon-bar-item falcon-button falcon-hide-small falcon-hover-white">News</a>
+            <a href="#" class="falcon-bar-item falcon-button falcon-hide-small falcon-hover-white">Contact</a>
+            <a href="#" class="falcon-bar-item falcon-button falcon-hide-small falcon-hide-medium falcon-hover-white">Clients</a>
+            <a href="#" class="falcon-bar-item falcon-button falcon-hide-small falcon-hide-medium falcon-hover-white">Partners</a>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <nav class="falcon-sidebar falcon-bar-block falcon-collapse falcon-large falcon-theme-l5 falcon-animate-left" id="mySidebar">
+        <a href="javascript:void(0)" onclick="falcon_close()"
+            class="falcon-right falcon-xlarge falcon-padding-large falcon-hover-black falcon-hide-large" title="Close Menu">
+            <i class="fa fa-remove"></i>
+        </a>
+        <h4 class="falcon-bar-item"><b>Menu</b></h4>
+        <a class="falcon-bar-item falcon-button falcon-hover-black" href="#">Link</a>
+        <a class="falcon-bar-item falcon-button falcon-hover-black" href="#">Link</a>
+        <a class="falcon-bar-item falcon-button falcon-hover-black" href="#">Link</a>
+        <a class="falcon-bar-item falcon-button falcon-hover-black" href="#">Link</a>
+        <a class="falcon-bar-item falcon-button falcon-hover-black" href="#">Link</a>
+        <a class="falcon-bar-item falcon-button falcon-hover-black" href="#">Link</a>
+        <a class="falcon-bar-item falcon-button falcon-hover-black" href="#">Link</a>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="falcon-overlay falcon-hide-large" onclick="falcon_close()" style="cursor:pointer" title="close side menu"
+        id="myOverlay"></div>
+
+    <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+    <div class="falcon-main" style="margin-left:250px">
+
+        <div class="falcon-row falcon-padding-64">
+            <div class="falcon-twothird falcon-container">
+                <h1 class="falcon-text-teal">Heading</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <div class="falcon-third falcon-container">
+                <p class="falcon-border falcon-padding-large falcon-padding-32 falcon-center">AD</p>
+                <p class="falcon-border falcon-padding-large falcon-padding-64 falcon-center">AD</p>
+            </div>
+        </div>
+
+        <div class="falcon-row">
+            <div class="falcon-twothird falcon-container">
+                <h1 class="falcon-text-teal">Heading</h1>
+                <p>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <div class="falcon-third falcon-container">
+                <p class="falcon-border falcon-padding-large falcon-padding-32 falcon-center">AD</p>
+                <p class="falcon-border falcon-padding-large falcon-padding-64 falcon-center">AD</p>
+            </div>
+        </div>
+
+        <div class="falcon-row falcon-padding-64">
+            <div class="falcon-twothird falcon-container">
+                <h1 class="falcon-text-teal">Heading</h1>
+                <p>
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <div class="falcon-third falcon-container">
+                <p class="falcon-border falcon-padding-large falcon-padding-32 falcon-center">AD</p>
+                <p class="falcon-border falcon-padding-large falcon-padding-64 falcon-center">AD</p>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="falcon-center falcon-padding-32">
+            <div class="falcon-bar">
+                <a class="falcon-button falcon-black" href="#">1</a>
+                <a class="falcon-button falcon-hover-black" href="#">2</a>
+                <a class="falcon-button falcon-hover-black" href="#">3</a>
+                <a class="falcon-button falcon-hover-black" href="#">4</a>
+                <a class="falcon-button falcon-hover-black" href="#">5</a>
+                <a class="falcon-button falcon-hover-black" href="#">»</a>
+            </div>
+        </div>
+
+        <footer id="myFooter">
+            <div class="falcon-container falcon-theme-l2 falcon-padding-32">
+                <h4>Footer</h4>
+            </div>
+
+            <div class="falcon-container falcon-theme-l1">
+                <p>Powered by <a href="https://www.atmecs.com" target="_blank">Falcon</a></p>
+            </div>
+        </footer>
+
+        <!-- END MAIN -->
+    </div>
+</body>
+
+</html>
